@@ -58,16 +58,17 @@ const Weddings = () => {
             </div>
           )}
         </div>
-      </motion.div>
-      <div>
-        <motion.div className="col-span-3 w-full text-xl bg-[#B1740F] p-8 drop-shadow-2xl">
-          <h1 className="text-white">Weddings</h1>
-        </motion.div>
-        <div className="bg-white">
-          <h2 className="bg-[#FDE8E9] px-8 py-3"></h2>
+
+        <div>
+          <motion.div className="col-span-3 w-full text-xl bg-[#B1740F] p-8 drop-shadow-2xl">
+            <h1 className="text-white">Weddings</h1>
+          </motion.div>
+          <div className="bg-white">
+            <h2 className="bg-[#FDE8E9] px-8 py-3"></h2>
+          </div>
         </div>
-        <ServicesNav />
-      </div>
+      </motion.div>
+      <ServicesNav />
       <div className="main-content grid grid-cols-3 gap-4 m-[2rem] ">
         <div>
           <img src="/images/cut-colour.jpg" className="ring ring-[#B1740F]" />
