@@ -50,6 +50,12 @@ const Contact = () => {
             </div>
           )}
         </div>
+        <motion.div className="col-span-3 w-full text-xl bg-[#B1740F] p-8 drop-shadow-2xl z-10 ">
+          <h1 className="text-white">Contact</h1>
+          <h2 className="text-white leading-relaxed text-xl">
+            Feel free to get in touch below with any questions:
+          </h2>
+        </motion.div>
 
         <motion.div
           className="flex w-screen justify-center items-center z-0 relative"
@@ -58,12 +64,6 @@ const Contact = () => {
           <img src="/images/salon-contact.jpg" className="w-screen " />
         </motion.div>
 
-        <motion.div className="col-span-3 w-full text-xl bg-[#B1740F] p-8 drop-shadow-2xl z-10 ">
-          <h1 className="text-white">Contact</h1>
-          <h2 className="text-white leading-relaxed text-xl">
-            Feel free to get in touch below with any questions:
-          </h2>
-        </motion.div>
         <div className="contact-grid grid grid-cols-2 my-12 mx-12 z-10">
           <div className="flex justify-around bg-[#FDE8E9] shadow-xl ring ring-[#B1740F] z-10">
             <form

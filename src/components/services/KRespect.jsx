@@ -62,8 +62,7 @@ const KRespect = () => {
       </motion.div>
       <div>
         <motion.div className="col-span-3 w-full text-xl bg-[#B1740F] p-8 drop-shadow-2xl">
-          <h1 className="text-white">Kids</h1>
-         
+          <h1 className="text-white">K Respect Smoothing</h1>
         </motion.div>
         <div className="bg-white">
           <h2 className="bg-[#FDE8E9] px-8 py-3"></h2>

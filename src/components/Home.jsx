@@ -44,10 +44,9 @@ const Home = () => {
           )}
         </div>
         <motion.div className="home-tagline col-span-3 w-full text-xl bg-[#B1740F] p-8 drop-shadow-2xl ">
-          <h1 className="tagline text-white">Emma Grainger Hair</h1>
-          <h2 className="tagline text-white leading-relaxed text-xl">
+          <h1 className="tagline text-white tracking-wide">
             Knaresborough based hairdresser
-          </h2>
+          </h1>
         </motion.div>
         <div className="hidden mobile-banner flex justify-center">
           <img src="/images/mobile-banner.jpg" className="object-cover" />
