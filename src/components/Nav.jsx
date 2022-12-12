@@ -34,9 +34,17 @@ const Nav = () => {
       <nav className="nav-bar py-3 sticky w-full top-0 z-20 ring ring-[#B1740F]">
         <div className="nav-bar-items flex justify-between items-start px-4">
           {scrollPosition <= 5 ? (
-            <img src={logo} className="nav-logo w-[60%]" id="logo" />
+            <img
+              src={logo}
+              className="nav-logo w-[60%] duration-1000"
+              id="logo"
+            />
           ) : (
-            <img src={logo} className="nav-logo w-[10%]" id="logo" />
+            <img
+              src={logo}
+              className="nav-logo w-[7.5%] duration-1000"
+              id="logo"
+            />
           )}
 
           <div className="flex justify-end h-full w-full items-center">
