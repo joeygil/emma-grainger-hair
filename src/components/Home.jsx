@@ -50,10 +50,7 @@ const Home = () => {
           </h2>
         </motion.div>
         <div className="hidden mobile-banner flex justify-center">
-          <img
-            src="/images/mobile-banner.jpg"
-            className="object-cover"
-          />
+          <img src="/images/mobile-banner.jpg" className="object-cover" />
         </div>
         <motion.div
           initial={{ opacity: 0 }}
@@ -81,10 +78,7 @@ const Home = () => {
               className="col-span-3 row-span-2 w-full text-xl bg-[#B1740F] z-0"
             >
               <div className="home-banner flex justify-center">
-                <img
-                  src="/images/salon-1-2.jpg"
-                  className="object-cover"
-                />
+                <img src="/images/salon-1-2.jpg" className="object-cover" />
               </div>
             </motion.div>
 
@@ -97,7 +91,7 @@ const Home = () => {
                   delay: 0.2,
                 },
               }}
-              viewport={{ once: false, amount: 0.6 }}
+              viewport={{ once: true, amount: 0.6 }}
               className="justify-self-center justify-items-center row-span-2 w-10/12 text-xl bg-white drop-shadow-2xl rounded-xl p-3 z-10 ring ring-[#B1740F]"
             >
               <div className="flex flex-col items-center justify-center ">
@@ -128,7 +122,7 @@ const Home = () => {
                   delay: 0.3,
                 },
               }}
-              viewport={{ once: false, amount: 0.6 }}
+              viewport={{ once: true, amount: 0.6 }}
               className="justify-self-center row-span-2 w-10/12 text-xl bg-white drop-shadow-2xl p-3 rounded-xl z-10 ring ring-[#B1740F]"
             >
               <div className="flex flex-col items-center justify-center">
@@ -159,7 +153,7 @@ const Home = () => {
                   delay: 0.4,
                 },
               }}
-              viewport={{ once: false, amount: 0.6 }}
+              viewport={{ once: true, amount: 0.6 }}
               className="justify-self-center row-span-2 w-10/12 text-xl bg-white drop-shadow-2xl p-3 rounded-xl z-10 ring ring-[#B1740F]"
             >
               <div className="flex flex-col items-center justify-center">
