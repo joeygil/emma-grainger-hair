@@ -56,74 +56,69 @@ const Extensions = () => {
             </div>
           )}
         </div>
-
-        <div>
-          <motion.div className="col-span-3 w-full text-xl bg-[#B1740F] p-8 drop-shadow-2xl">
-            <h1 className="text-white">Services</h1>
-            <h2 className="text-white leading-relaxed text-xl">
-              Pick and book your services below:
-            </h2>
-          </motion.div>
-          <div className="bg-white">
-            <h2 className="bg-[#FDE8E9] px-8 py-3"></h2>
-          </div>
-          <ServicesNav />
-        </div>
-
-        <div className="main-content grid grid-cols-3 gap-4 m-[2rem] ">
-          <div>
-            <img
-              src="/images/extensions-bw.jpg"
-              className="ring ring-[#B1740F]"
-            />
-          </div>
-          <div className="flex flex-col items-center justify-around col-span-2 bg-[#635774] text-white p-5 ring ring-[#B1740F]">
-            <h2 className="font-bold text-[#FDE8E9]">Extensions</h2>
-            <motion.button
-              whileHover={{ scale: 1.1 }}
-              whileTap={{ scale: 0.9 }}
-              onClick={openModal}
-              className="bg-[#B1740F] hover:bg-[#FDE8E9] hover:text-[#635774] text-[#FDE8E9] text-xl shadow-lg my-4 py-4 px-4 rounded justify-self-center"
-            >
-              Book Online
-            </motion.button>
-            <p className="services-p text-justify text-xl px-12">
-              Extensions can quickly and easily add volume and length, naturally
-              enhancing your hairstyle for a different look. They can be a
-              quick, gratifying way to prepare for a special occasion or just
-              give you an instant style change without months of waiting for
-              hair growth. I can do extensions to increase length, volume or
-              thickness.
-              <br />
-              <br />
-              <p>
-                Hair extensions can be a great way to add length and volume to a
-                client's natural hair. They come in a variety of colors,
-                textures, and lengths, so it is easy to find the perfect match
-                for any client. Hair extensions are applied using a variety of
-                methods, such as fusion, tape-in, or clip-in, and can be easily
-                removed without damaging the natural hair. I use the nano-ring
-                method as I feel it is the most effective and long lasting. With
-                proper care and maintenance, hair extensions can last for
-                several months, giving the client a beautiful and full head of
-                hair. Overall, I believe that hair extensions are a valuable
-                tool in the hair styling industry and can help clients achieve
-                the look they desire.
-              </p>
-              <br />
-              As extensions are a bespoke service, a full consultation is
-              required beforehand to assess your needs, click below to book
-              online and see what I can do for you.
-            </p>
-          </div>
-        </div>
-
-        <Modal
-          showModal={showModal}
-          setShowModal={setShowModal}
-          modalContent={modalContent}
-        />
       </motion.div>
+      <div>
+        <motion.div className="col-span-3 w-full text-xl bg-[#B1740F] p-8 drop-shadow-2xl">
+          <h1 className="text-white">Extensions</h1>
+        </motion.div>
+        <div className="bg-white">
+          <h2 className="bg-[#FDE8E9] px-8 py-3"></h2>
+        </div>
+        <ServicesNav />
+      </div>
+
+      <div className="main-content grid grid-cols-3 gap-4 m-[2rem] ">
+        <div>
+          <img
+            src="/images/extensions-bw.jpg"
+            className="ring ring-[#B1740F]"
+          />
+        </div>
+        <div className="flex flex-col items-center justify-around col-span-2 bg-[#635774] text-white p-5 ring ring-[#B1740F]">
+          <h2 className="font-bold text-[#FDE8E9]">Extensions</h2>
+          <motion.button
+            whileHover={{ scale: 1.1 }}
+            whileTap={{ scale: 0.9 }}
+            onClick={openModal}
+            className="bg-[#B1740F] hover:bg-[#FDE8E9] hover:text-[#635774] text-[#FDE8E9] text-xl shadow-lg my-4 py-4 px-4 rounded justify-self-center"
+          >
+            Book Online
+          </motion.button>
+          <p className="services-p text-justify text-xl px-12">
+            Extensions can quickly and easily add volume and length, naturally
+            enhancing your hairstyle for a different look. They can be a quick,
+            gratifying way to prepare for a special occasion or just give you an
+            instant style change without months of waiting for hair growth. I
+            can do extensions to increase length, volume or thickness.
+            <br />
+            <br />
+            <p>
+              Hair extensions can be a great way to add length and volume to a
+              client's natural hair. They come in a variety of colors, textures,
+              and lengths, so it is easy to find the perfect match for any
+              client. Hair extensions are applied using a variety of methods,
+              such as fusion, tape-in, or clip-in, and can be easily removed
+              without damaging the natural hair. I use the nano-ring method as I
+              feel it is the most effective and long lasting. With proper care
+              and maintenance, hair extensions can last for several months,
+              giving the client a beautiful and full head of hair. Overall, I
+              believe that hair extensions are a valuable tool in the hair
+              styling industry and can help clients achieve the look they
+              desire.
+            </p>
+            <br />
+            As extensions are a bespoke service, a full consultation is required
+            beforehand to assess your needs, click below to book online and see
+            what I can do for you.
+          </p>
+        </div>
+      </div>
+
+      <Modal
+        showModal={showModal}
+        setShowModal={setShowModal}
+        modalContent={modalContent}
+      />
     </>
   );
 };

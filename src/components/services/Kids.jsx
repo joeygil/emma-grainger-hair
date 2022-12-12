@@ -56,58 +56,51 @@ const Kids = () => {
             </div>
           )}
         </div>
-
-        <div>
-          <motion.div className="col-span-3 w-full text-xl bg-[#B1740F] p-8 drop-shadow-2xl">
-            <h1 className="text-white">Services</h1>
-            <h2 className="text-white leading-relaxed text-xl">
-              Pick and book your services below:
-            </h2>
-          </motion.div>
-          <div className="bg-white">
-            <h2 className="bg-[#FDE8E9] px-8 py-3"></h2>
-          </div>
-          <ServicesNav />
-        </div>
-
-        <div className="main-content grid grid-cols-3 gap-4 m-[2rem] ">
-          <div>
-            <img
-              src="/images/cut-colour.jpg"
-              className="ring ring-[#B1740F]"
-            />
-          </div>
-          <div className="flex flex-col items-center justify-around col-span-2 bg-[#635774] text-white p-5 ring ring-[#B1740F]">
-            <h2 className="font-bold text-[#FDE8E9]">Kids</h2>
-            <motion.button
-              whileHover={{ scale: 1.1 }}
-              whileTap={{ scale: 0.9 }}
-              onClick={openModal}
-              className="bg-[#B1740F] hover:bg-[#FDE8E9] hover:text-[#635774] text-[#FDE8E9] text-xl shadow-lg my-4 py-4 px-4 rounded justify-self-center"
-            >
-              Book Online
-            </motion.button>
-            <p className="services-p text-justify text-xl px-12">
-              Cutting children's hair can be a challenging but rewarding
-              experience. Children can be restless and uncooperative during a
-              haircut, so it is important for the stylist to have patience and a
-              gentle touch. A successful children's haircut requires a stylist
-              to be knowledgeable about age-appropriate styles and to be able to
-              work quickly and efficiently. It is also important to make the
-              experience fun for the child, by providing distractions such as
-              toys or games, and by being friendly and engaging. I believe that
-              a positive haircut experience for a child can set the foundation
-              for a lifetime of good grooming habits.
-            </p>
-          </div>
-        </div>
-
-        <Modal
-          showModal={showModal}
-          setShowModal={setShowModal}
-          modalContent={modalContent}
-        />
       </motion.div>
+      <div>
+        <motion.div className="col-span-3 w-full text-xl bg-[#B1740F] p-8 drop-shadow-2xl">
+          <h1 className="text-white">Kids</h1>
+        </motion.div>
+        <div className="bg-white">
+          <h2 className="bg-[#FDE8E9] px-8 py-3"></h2>
+        </div>
+        <ServicesNav />
+      </div>
+
+      <div className="main-content grid grid-cols-3 gap-4 m-[2rem] ">
+        <div>
+          <img src="/images/cut-colour.jpg" className="ring ring-[#B1740F]" />
+        </div>
+        <div className="flex flex-col items-center justify-around col-span-2 bg-[#635774] text-white p-5 ring ring-[#B1740F]">
+          <h2 className="font-bold text-[#FDE8E9]">Kids</h2>
+          <motion.button
+            whileHover={{ scale: 1.1 }}
+            whileTap={{ scale: 0.9 }}
+            onClick={openModal}
+            className="bg-[#B1740F] hover:bg-[#FDE8E9] hover:text-[#635774] text-[#FDE8E9] text-xl shadow-lg my-4 py-4 px-4 rounded justify-self-center"
+          >
+            Book Online
+          </motion.button>
+          <p className="services-p text-justify text-xl px-12">
+            Cutting children's hair can be a challenging but rewarding
+            experience. Children can be restless and uncooperative during a
+            haircut, so it is important for the stylist to have patience and a
+            gentle touch. A successful children's haircut requires a stylist to
+            be knowledgeable about age-appropriate styles and to be able to work
+            quickly and efficiently. It is also important to make the experience
+            fun for the child, by providing distractions such as toys or games,
+            and by being friendly and engaging. I believe that a positive
+            haircut experience for a child can set the foundation for a lifetime
+            of good grooming habits.
+          </p>
+        </div>
+      </div>
+
+      <Modal
+        showModal={showModal}
+        setShowModal={setShowModal}
+        modalContent={modalContent}
+      />
     </>
   );
 };
