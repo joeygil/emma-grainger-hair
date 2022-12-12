@@ -8,7 +8,7 @@ import { UilPhone } from "@iconscout/react-unicons";
 const Footer = () => {
   return (
     <>
-      <div className="w-screen h-[180px] bg-[#B1740F]">
+      <div className="w-screen h-[180px] bg-[#B1740F] mt-10">
         <div className="flex justify-around items-center h-full px-5">
           <motion.a
             href="https://www.facebook.com/emmaatdivine"
