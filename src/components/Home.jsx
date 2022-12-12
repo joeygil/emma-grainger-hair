@@ -33,7 +33,7 @@ const Home = () => {
         <div className="home-image flex justify-end relative z-50">
           {scrollPosition < 5 ? (
             <div
-              className="w-[73%] h-[90vh] bg-[url('/images/milkshake-red-banner.webp')] bg-cover -top-80 absolute duration-1000 shadow-xl rounded-tl-[10rem] flex items-end justify-end ring ring-[#B1740F]"
+              className="w-[65%] h-[90vh] bg-[url('/images/milkshake-red-banner.webp')] bg-cover -top-80 absolute duration-1000 shadow-xl rounded-tl-[10rem] flex items-end justify-end ring ring-[#B1740F]"
               id="hero"
             ></div>
           ) : (

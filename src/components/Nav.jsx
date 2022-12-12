@@ -36,7 +36,7 @@ const Nav = () => {
           {scrollPosition <= 5 ? (
             <img
               src={logo}
-              className="nav-logo w-3/12 duration-1000"
+              className="nav-logo w-[60%] duration-1000"
               id="logo"
             />
           ) : (
