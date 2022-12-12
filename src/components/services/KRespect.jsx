@@ -34,7 +34,7 @@ const KRespect = () => {
   return (
     <>
       <motion.div
-        initial={{ width: 0 }}
+        initial={{ width: "40%" }}
         animate={{ width: "100%" }}
         exit={{ x: window.screenX }}
       >
@@ -49,10 +49,7 @@ const KRespect = () => {
               </h1>
             </div>
           ) : (
-            <div
-              className="w-[0] h-[0] bg-[#F6AE2D] -top-80 absolute duration-1000 shadow-xl rounded-tl-[10rem] flex items-end justify-end opacity-0"
-              id="hero"
-            >
+            <div className="w-[0] h-[0] opacity-0" id="hero">
               <h1 className="mb-8 mr-8 text-white text-[6rem] font-bold opacity-0">
                 K Respect Smoothing
               </h1>
@@ -61,9 +58,9 @@ const KRespect = () => {
         </div>
 
         <div>
-          <motion.div className="col-span-3 w-full text-xl bg-[#B1740F] p-8 drop-shadow-2xl">
+          <div className="col-span-3 w-full text-xl bg-[#B1740F] p-8 drop-shadow-2xl">
             <h1 className="text-white">K Respect Smoothing</h1>
-          </motion.div>
+          </div>
           <div className="bg-white">
             <h2 className="bg-[#FDE8E9] px-8 py-3"></h2>
           </div>
