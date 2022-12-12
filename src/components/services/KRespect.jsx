@@ -51,7 +51,7 @@ const KRespect = () => {
           ) : (
             <div className="w-[0] h-[0] opacity-0" id="hero">
               <h1 className="mb-8 mr-8 text-white text-[6rem] font-bold opacity-0">
-                K Respect Smoothing
+                K Respect
               </h1>
             </div>
           )}
@@ -59,7 +59,10 @@ const KRespect = () => {
 
         <div>
           <div className="col-span-3 w-full text-xl bg-[#B1740F] p-8 drop-shadow-2xl">
-            <h1 className="text-white">K Respect Smoothing</h1>
+            <h1 className="text-white">K Respect</h1>
+            <h2 className="text-white leading-relaxed text-xl">
+              Hair Smoothing
+            </h2>
           </div>
           <div className="bg-white">
             <h2 className="bg-[#FDE8E9] px-8 py-3"></h2>
