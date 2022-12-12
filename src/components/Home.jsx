@@ -43,8 +43,8 @@ const Home = () => {
             ></div>
           )}
         </div>
-        <motion.div className="home-tagline col-span-3 w-full text-xl bg-[#B1740F] p-8 drop-shadow-2xl ">
-          <h1 className="tagline text-white tracking-wide">
+        <motion.div className="home-tagline col-span-3 w-full bg-[#B1740F] p-8 drop-shadow-2xl ">
+          <h1 className="tagline text-white text-2xl tracking-wide">
             Knaresborough based hairdresser
           </h1>
         </motion.div>
