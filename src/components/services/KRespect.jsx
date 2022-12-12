@@ -41,11 +41,11 @@ const KRespect = () => {
         <div className="flex justify-end relative z-30">
           {scrollPosition < 5 ? (
             <div
-              className="hero w-[70%] h-[40vh] bg-[url('/images/services-banner-dark.jpg')] bg-cover -top-80 absolute duration-1000 shadow-xl rounded-tl-[10rem] rounded-bl-[10rem] flex items-end justify-end ring ring-[#B1740F]"
+              className="hero w-[60%] h-[40vh] bg-[url('/images/services-banner-dark.jpg')] bg-cover -top-80 absolute duration-1000 shadow-xl rounded-tl-[10rem] rounded-bl-[10rem] flex items-end justify-end ring ring-[#B1740F]"
               id="hero"
             >
               <h1 className="mb-8 mr-8 text-white text-[6rem] font-bold">
-                K Respect Smoothing
+                K Respect
               </h1>
             </div>
           ) : (
