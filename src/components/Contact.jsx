@@ -30,7 +30,7 @@ const Contact = () => {
         exit={{ x: window.screenX }}
       >
         <div className="flex justify-end relative z-50">
-          {scrollPosition < 1 ? (
+          {scrollPosition < 10 ? (
             <div
               className="contact-image w-[60%] h-[40vh] bg-[url('/images/contact-banner-dark.jpg')] bg-cover -top-80 absolute duration-1000 shadow-xl rounded-tl-[10rem] rounded-bl-[10rem] flex items-end justify-end ring ring-[#B1740F]"
               id="hero"
