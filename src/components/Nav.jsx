@@ -42,7 +42,7 @@ const Nav = () => {
           ) : (
             <img
               src={logo}
-              className="nav-logo w-[7.5%] duration-1000"
+              className="nav-logo nav-logo-zoom w-[7.5%] duration-1000"
               id="logo"
             />
           )}

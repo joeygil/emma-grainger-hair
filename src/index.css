@@ -35,6 +35,10 @@ h2 {
   color: #fde8e9;
 }
 
+.nav-logo-zoom {
+  width: 20%;
+}
+
 p {
   font-family: "futura-pt", sans-serif;
   font-weight: 300;
