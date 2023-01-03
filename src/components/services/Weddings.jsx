@@ -68,7 +68,10 @@ const Weddings = () => {
       <ServicesNav />
       <div className="main-content grid grid-cols-3 gap-4 m-[2rem] ">
         <div>
-          <img src="/images/cut-colour.jpg" className="ring ring-[#B1740F]" />
+          <img
+            src="/images/cut-colour.jpg"
+            className="services-img ring ring-[#B1740F]"
+          />
         </div>
         <div className="flex flex-col items-center justify-around col-span-2 bg-[#635774] text-white p-5 ring ring-[#B1740F]">
           <h2 className="font-bold text-[#FDE8E9]">Weddings</h2>

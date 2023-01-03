@@ -71,7 +71,7 @@ const Extensions = () => {
         <div>
           <img
             src="/images/extensions-bw.jpg"
-            className="ring ring-[#B1740F]"
+            className="services-img ring ring-[#B1740F]"
           />
         </div>
         <div className="flex flex-col items-center justify-around col-span-2 bg-[#635774] text-white p-5 ring ring-[#B1740F]">

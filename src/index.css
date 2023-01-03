@@ -205,6 +205,10 @@ button {
     padding: 2px;
   }
 
+  .services-img {
+    display: none;
+  }
+
   .hero {
     display: none;
   }
