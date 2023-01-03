@@ -5,6 +5,7 @@ import Modal from "../Modal";
 import { Link } from "react-router-dom";
 import CutModal from "../modals/CutModal";
 import ServicesNav from "../ServicesNav";
+import ShrunkNav from "../ShrunkNav";
 
 const CutAndStyle = () => {
   const [scrollPosition, setScrollPosition] = useState(0);
@@ -30,13 +31,14 @@ const CutAndStyle = () => {
 
   return (
     <>
+    <ShrunkNav />
       <motion.div
         initial={{ width: "20%" }}
         animate={{ width: "100%" }}
         exit={{ x: window.screenX }}
       >
         <div className="flex justify-end relative z-30">
-          {scrollPosition < 5 ? (
+          {/* {scrollPosition < 5 ? (
             <div
               className="hero w-[60%] h-[40vh] bg-[url('/images/services-banner-dark.jpg')] bg-cover -top-80 absolute duration-1000 shadow-xl rounded-tl-[10rem] rounded-bl-[10rem] flex items-end justify-end ring ring-[#B1740F]"
               id="hero"
@@ -54,7 +56,7 @@ const CutAndStyle = () => {
                 Cut & Style
               </h1>
             </div>
-          )}
+          )} */}
         </div>
 
         <div>

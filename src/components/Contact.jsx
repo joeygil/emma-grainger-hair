@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import { UilInstagram } from "@iconscout/react-unicons";
 import { UilFacebook } from "@iconscout/react-unicons";
 import { useScroll, useTransform } from "framer-motion";
+import Nav from "./Nav";
 
 const Contact = () => {
   const [scrollPosition, setScrollPosition] = useState(0);
@@ -24,6 +25,7 @@ const Contact = () => {
   }, []);
   return (
     <>
+      <Nav />
       <motion.div
         initial={{ width: 0 }}
         animate={{ width: "100%" }}

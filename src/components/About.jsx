@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import React, { useState } from "react";
 import { useEffect } from "react";
+import Nav from "./Nav";
 
 const About = () => {
   const [scrollPosition, setScrollPosition] = useState(0);
@@ -19,6 +20,7 @@ const About = () => {
 
   return (
     <>
+    <Nav />
       <motion.div
         initial={{ width: 0 }}
         animate={{ width: "100%" }}

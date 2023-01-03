@@ -3,6 +3,7 @@ import { useState, useEffect } from "react";
 import { motion, useScroll, useTransform } from "framer-motion";
 import "../mediaqueries.css";
 import { Link } from "react-router-dom";
+import Nav from "./Nav";
 
 const Home = () => {
   const [scrollPosition, setScrollPosition] = useState(0);
@@ -25,6 +26,7 @@ const Home = () => {
 
   return (
     <>
+    <Nav />
       <motion.div
         initial={{ width: 0 }}
         animate={{ width: "100%" }}

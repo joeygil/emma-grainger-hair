@@ -7,6 +7,7 @@ import { Link } from "react-router-dom";
 import { UilInstagram } from "@iconscout/react-unicons";
 import { UilFacebook } from "@iconscout/react-unicons";
 import ServicesNav from "../ServicesNav";
+import ShrunkNav from "../ShrunkNav";
 
 const Weddings = () => {
   const [scrollPosition, setScrollPosition] = useState(0);
@@ -32,13 +33,14 @@ const Weddings = () => {
 
   return (
     <>
+      <ShrunkNav />
       <motion.div
         initial={{ width: "20%" }}
         animate={{ width: "100%" }}
         exit={{ x: window.screenX }}
       >
         <div className="flex justify-end relative z-30">
-          {scrollPosition < 5 ? (
+          {/* {scrollPosition < 5 ? (
             <div
               className="hero w-[60%] h-[40vh] bg-[url('/images/services-banner-dark.jpg')] bg-cover -top-80 absolute duration-1000 shadow-xl rounded-tl-[10rem] rounded-bl-[10rem] flex items-end justify-end ring ring-[#B1740F]"
               id="hero"
@@ -53,7 +55,7 @@ const Weddings = () => {
                 Weddings
               </h1>
             </div>
-          )}
+          )} */}
         </div>
 
         <div>

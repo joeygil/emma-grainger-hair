@@ -4,6 +4,7 @@ import { useState, useEffect } from "react";
 import Modal from "./Modal";
 import { Link } from "react-router-dom";
 import ServicesNav from "./ServicesNav";
+import Nav from "./Nav";
 
 const Services = () => {
   const [scrollPosition, setScrollPosition] = useState(0);
@@ -27,6 +28,7 @@ const Services = () => {
 
   return (
     <>
+      <Nav />
       {/* <button onClick={openModal}>OPEN MODAL</button> */}
       <motion.div
         initial={{ width: 0 }}
