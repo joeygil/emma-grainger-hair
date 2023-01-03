@@ -4,6 +4,7 @@ import { motion, useScroll, useTransform } from "framer-motion";
 import "../mediaqueries.css";
 import { Link } from "react-router-dom";
 import Nav from "./Nav";
+import ScrollToTop from "./ScrollToTop";
 
 const Home = () => {
   const [scrollPosition, setScrollPosition] = useState(0);
@@ -26,7 +27,8 @@ const Home = () => {
 
   return (
     <>
-    <Nav />
+      <ScrollToTop />
+      <Nav />
       <motion.div
         initial={{ width: 0 }}
         animate={{ width: "100%" }}

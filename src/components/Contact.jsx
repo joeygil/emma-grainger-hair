@@ -5,6 +5,7 @@ import { UilInstagram } from "@iconscout/react-unicons";
 import { UilFacebook } from "@iconscout/react-unicons";
 import { useScroll, useTransform } from "framer-motion";
 import Nav from "./Nav";
+import ScrollToTop from "./ScrollToTop";
 
 const Contact = () => {
   const [scrollPosition, setScrollPosition] = useState(0);
@@ -25,6 +26,7 @@ const Contact = () => {
   }, []);
   return (
     <>
+      <ScrollToTop />
       <Nav />
       <motion.div
         initial={{ width: 0 }}

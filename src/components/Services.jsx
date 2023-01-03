@@ -5,6 +5,7 @@ import Modal from "./Modal";
 import { Link } from "react-router-dom";
 import ServicesNav from "./ServicesNav";
 import Nav from "./Nav";
+import ScrollToTop from "./ScrollToTop";
 
 const Services = () => {
   const [scrollPosition, setScrollPosition] = useState(0);
@@ -28,6 +29,7 @@ const Services = () => {
 
   return (
     <>
+      <ScrollToTop />
       <Nav />
       {/* <button onClick={openModal}>OPEN MODAL</button> */}
       <motion.div
