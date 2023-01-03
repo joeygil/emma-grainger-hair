@@ -3,7 +3,7 @@ import React from "react";
 const CutModal = () => {
   return (
     <>
-      <ul className="modal-content-box flex flex-col justify-around w-6/12 items-center text-xl bg-white text-[#635774] rounded-xl drop-shadow-2xl p-5 ">
+      <ul className="modal-content-box flex flex-col justify-around w-7/12 items-center text-xl bg-white text-[#635774] rounded-xl drop-shadow-2xl p-5 ">
         <a
           href="https://www.fresha.com/book-now/divine-hair-t5czol7v/services?lid=149346&eid=511383&oiid=sv%3A11650284&pId=139034"
           className="w-full  hover:text-[#B1740F]  duration-300"

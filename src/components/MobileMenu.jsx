@@ -40,7 +40,10 @@ const MobileMenu = ({ showModal, setShowModal, modalContent }) => {
               exit={{ x: "150vh", opacity: 0 }}
             >
               <div className="menu-container flex flex-col justify-around items-center w-full h-full">
-                <img src="/images/eg-logo-sml.png" className="h-[200px]" />
+                <img
+                  src="/images/eg-logo-sml.png"
+                  className="h-[200px] rounded-xl"
+                />
                 <a
                   href="https://www.fresha.com/book-now/divine-hair-t5czol7v/services?lid=149346&eid=511383&pId=139034"
                   target="_blank"

@@ -30,10 +30,10 @@ const Modal = ({ showModal, setShowModal, modalContent }) => {
               transition={{ duration: 0.3 }}
               exit={{ y: "150vh", opacity: 0 }}
             >
-              <h2 className="modal-title text-center text-2xl my-5">
+              {/* <h2 className="modal-title text-center text-2xl my-5">
                 Pick your service below and you'll be redirected to our secure
                 booking system to complete booking:
-              </h2>
+              </h2> */}
 
               {modalContent}
 

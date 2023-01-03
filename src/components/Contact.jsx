@@ -74,7 +74,7 @@ const Contact = () => {
             <form
               action="https://public.herotofu.com/v1/51b9dfb0-6bd7-11ed-a377-655c67143cec"
               method="post"
-              className="contact-form mb-20 w-5/6 flex flex-col justify-center items-center"
+              className="contact-form   mb-20 w-5/6 flex flex-col justify-center items-center"
             >
               <h1 className="p-3 ml-4">Drop me a message:</h1>
               <label for="name"></label>
