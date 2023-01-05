@@ -7,6 +7,7 @@ import {
   UilPhone,
 } from "@iconscout/react-unicons";
 import { Link } from "react-router-dom";
+import { UilTimesCircle } from "@iconscout/react-unicons";
 
 const MobileMenu = ({ showModal, setShowModal, modalContent }) => {
   const [scrollPosition, setScrollPosition] = useState(0);
@@ -40,15 +41,15 @@ const MobileMenu = ({ showModal, setShowModal, modalContent }) => {
               exit={{ x: "150vh", opacity: 0 }}
             >
               <div className="menu-container flex flex-col justify-around items-center w-full h-full">
-                <img
+                {/* <img
                   src="/images/eg-logo-sml.png"
                   className="h-[150px] mt-3 rounded-xl"
-                />
+                /> */}
                 <a
                   href="https://www.fresha.com/book-now/divine-hair-t5czol7v/services?lid=149346&eid=511383&pId=139034"
                   target="_blank"
                 >
-                  <motion.button className="hidden nav-book-mobile bg-[#B1740F] hover:bg-[#FDE8E9] hover:text-[#635774] text-[#FDE8E9] text-xl shadow-lg py-4 px-4 rounded z-50">
+                  <motion.button className="scale-125 hidden nav-book-mobile bg-[#B1740F] hover:bg-[#FDE8E9] hover:text-[#635774] text-[#FDE8E9] text-xl shadow-lg py-4 px-4 rounded z-50">
                     Book Online
                   </motion.button>
                 </a>
@@ -123,9 +124,9 @@ const MobileMenu = ({ showModal, setShowModal, modalContent }) => {
                 whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 0.9 }}
                 onClick={handleClose}
-                className="bg-[red] hover:bg-[#FDE8E9] hover:text-[#635774] text-white text-xl shadow-lg py-3 px-4 m-4 rounded-lg justify-self-center absolute top-0 right-0"
+                className="bg-[] hover:bg-[#FDE8E9] hover:text-[#635774] text-white text-xl py-3 px-4 m-4 rounded-lg justify-self-center absolute top-0 right-0"
               >
-                X
+                <UilTimesCircle size="40"/>
               </motion.button>
             </motion.div>
           </div>
