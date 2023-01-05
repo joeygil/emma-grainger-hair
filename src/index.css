@@ -48,7 +48,7 @@ button {
 }
 
 a.active {
-  color: #B1740F;
+  color: #b1740f;
   font-weight: 600;
 }
 
@@ -227,7 +227,7 @@ a.active {
   .modal-content {
     margin: 0;
     width: 90%;
-    height: 98%;
+    height: 90%;
   }
 
   .modal-content-box {
