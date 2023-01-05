@@ -5,8 +5,10 @@ import "../mediaqueries.css";
 import { Link } from "react-router-dom";
 import Nav from "./Nav";
 import ScrollToTop from "./ScrollToTop";
+import { useRef } from "react";
 
 const Home = () => {
+  const scrollRef = useRef(null);
   const [scrollPosition, setScrollPosition] = useState(0);
   let { scrollYProgress } = useScroll();
   let y = useTransform(scrollYProgress, [0, 1], ["0%", "75%"]);
@@ -61,9 +63,10 @@ const Home = () => {
             opacity: 1,
             transition: {
               duration: 0.8,
+              delay: 0.2,
             },
           }}
-          viewport={{ once: true, amount: 0.2 }}
+          viewport={{ once: true }}
           className="flex justify-center items-center relative"
         >
           <div className="home-grid grid grid-cols-3 gap-8 w-full">
@@ -73,10 +76,11 @@ const Home = () => {
                 opacity: 1,
                 transition: {
                   duration: 0.8,
+                  delay: 0.4,
                 },
               }}
               exit={{ opacity: 0 }}
-              viewport={{ once: true, amount: 0.3 }}
+              viewport={{ once: true }}
               style={{ y }}
               className="col-span-3 row-span-2 w-full text-xl bg-[#B1740F] z-0"
             >
@@ -86,15 +90,16 @@ const Home = () => {
             </motion.div>
 
             <motion.div
-              initial={{ opacity: 0 }}
+              initial={{ opacity: 0, x: -10 }}
               whileInView={{
                 opacity: 1,
+                x: 0,
                 transition: {
                   duration: 0.8,
                   delay: 0.2,
                 },
               }}
-              viewport={{ once: true, amount: 0.6 }}
+              viewport={{ once: true, margin: "-150px" }}
               className="justify-self-center justify-items-center row-span-2 w-10/12 text-xl bg-white drop-shadow-2xl rounded-xl p-3 z-10 ring ring-[#B1740F]"
             >
               <div className="flex flex-col items-center justify-center ">
@@ -116,16 +121,18 @@ const Home = () => {
                 </Link>
               </div>
             </motion.div>
+
             <motion.div
-              initial={{ opacity: 0 }}
+              initial={{ opacity: 0, x: -10 }}
               whileInView={{
                 opacity: 1,
+                x: 0,
                 transition: {
                   duration: 0.8,
-                  delay: 0.3,
+                  delay: 0.2,
                 },
               }}
-              viewport={{ once: true, amount: 0.6 }}
+              viewport={{ once: true, margin: "-150px" }}
               className="justify-self-center row-span-2 w-10/12 text-xl bg-white drop-shadow-2xl p-3 rounded-xl z-10 ring ring-[#B1740F]"
             >
               <div className="flex flex-col items-center justify-center">
@@ -147,16 +154,18 @@ const Home = () => {
                 </Link>
               </div>
             </motion.div>
+
             <motion.div
-              initial={{ opacity: 0 }}
+              initial={{ opacity: 0, x: -10 }}
               whileInView={{
                 opacity: 1,
+                x: 0,
                 transition: {
                   duration: 0.8,
-                  delay: 0.4,
+                  delay: 0.2,
                 },
               }}
-              viewport={{ once: true, amount: 0.6 }}
+              viewport={{ once: true, margin: "-175px" }}
               className="justify-self-center row-span-2 w-10/12 text-xl bg-white drop-shadow-2xl p-3 rounded-xl z-10 ring ring-[#B1740F]"
             >
               <div className="flex flex-col items-center justify-center">

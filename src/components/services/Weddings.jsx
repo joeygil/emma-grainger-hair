@@ -8,6 +8,7 @@ import { UilInstagram } from "@iconscout/react-unicons";
 import { UilFacebook } from "@iconscout/react-unicons";
 import ServicesNav from "../ServicesNav";
 import ShrunkNav from "../ShrunkNav";
+import ScrollToTop from "../ScrollToTop";
 
 const Weddings = () => {
   const [scrollPosition, setScrollPosition] = useState(0);
@@ -33,6 +34,7 @@ const Weddings = () => {
 
   return (
     <>
+      <ScrollToTop />
       <ShrunkNav />
       <motion.div
         initial={{ width: "20%" }}

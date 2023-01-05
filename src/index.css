@@ -47,6 +47,11 @@ button {
   font-size: 1.4rem;
 }
 
+a.active {
+  color: #B1740F;
+  font-weight: 600;
+}
+
 .menu-button {
   display: none;
 }

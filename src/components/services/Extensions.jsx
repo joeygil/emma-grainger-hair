@@ -6,6 +6,7 @@ import ExtensionsModal from "../modals/ExtensionsModal";
 import { Link } from "react-router-dom";
 import ServicesNav from "../ServicesNav";
 import ShrunkNav from "../ShrunkNav";
+import ScrollToTop from "../ScrollToTop";
 
 const Extensions = () => {
   const [scrollPosition, setScrollPosition] = useState(0);
@@ -31,6 +32,7 @@ const Extensions = () => {
 
   return (
     <>
+    <ScrollToTop />
     <ShrunkNav />
       <motion.div
         initial={{ width: "20%" }}

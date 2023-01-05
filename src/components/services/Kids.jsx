@@ -6,6 +6,7 @@ import KidsModal from "../modals/KidsModal";
 import { Link } from "react-router-dom";
 import ServicesNav from "../ServicesNav";
 import ShrunkNav from "../ShrunkNav";
+import ScrollToTop from "../ScrollToTop";
 
 const Kids = () => {
   const [scrollPosition, setScrollPosition] = useState(0);
@@ -31,6 +32,7 @@ const Kids = () => {
 
   return (
     <>
+    <ScrollToTop />
     <ShrunkNav />
       <motion.div
         initial={{ width: "20%" }}

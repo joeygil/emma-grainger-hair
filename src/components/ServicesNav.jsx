@@ -1,44 +1,49 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
+import { useState } from "react";
 
 const ServicesNav = () => {
+  const [currentPage, setCurrentPage] = useState(false);
+
+ 
+
   return (
     <>
       <div className="bg-white">
         <h2 className="bg-[#FDE8E9] px-8 py-3"></h2>
       </div>
       <div className="services-nav flex justify-around align-center bg-white p-8  ring ring-[#B1740F] drop-shadow-2xl">
-        <Link to="/services/cutandstyle">
-          <div className="text-lg flex justify-between">Cut / Style</div>
-        </Link>
+        <NavLink to="/services/cutandstyle" activeClassName="active">
+          <div className="page-current text-lg">Cut / Style</div>
+        </NavLink>
         <div>|</div>
-        <Link to="/services/highlights">
+        <NavLink to="/services/highlights" activeClassName="active">
           <div className="text-lg">Highlights</div>
-        </Link>
+        </NavLink>
         <div>|</div>
-        <Link to="/services/colours">
+        <NavLink to="/services/colours" activeClassName="active">
           <div className="text-lg">Colours</div>
-        </Link>
+        </NavLink>
         <div>|</div>
-        <Link to="/services/balayage">
-          <div className="text-lg">Balayage</div>
-        </Link>
+        <NavLink to="/services/balayage" activeClassName="active">
+          <div className="page-current text-lg">Balayage</div>
+        </NavLink>
         <div>|</div>
-        <Link to="/services/weddings">
+        <NavLink to="/services/weddings" activeClassName="active">
           <div className="text-lg">Weddings</div>
-        </Link>
+        </NavLink>
         <div>|</div>
-        <Link to="/services/krespect">
+        <NavLink to="/services/krespect" activeClassName="active">
           <div className="text-lg">K Respect</div>
-        </Link>
+        </NavLink>
         <div>|</div>
-        <Link to="/services/kids">
+        <NavLink to="/services/kids" activeClassName="active">
           <div className="text-lg">Kids</div>
-        </Link>
+        </NavLink>
         <div>|</div>
-        <Link to="/services/extensions">
+        <NavLink to="/services/extensions" activeClassName="active">
           <div className="text-lg">Extensions</div>
-        </Link>
+        </NavLink>
       </div>
     </>
   );

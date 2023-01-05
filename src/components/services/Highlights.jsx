@@ -6,6 +6,7 @@ import HighlightsModal from "../modals/HighlightsModal";
 import { Link } from "react-router-dom";
 import ServicesNav from "../ServicesNav";
 import ShrunkNav from "../ShrunkNav";
+import ScrollToTop from "../ScrollToTop";
 
 const Highlights = () => {
   const [scrollPosition, setScrollPosition] = useState(0);
@@ -31,6 +32,7 @@ const Highlights = () => {
 
   return (
     <>
+    <ScrollToTop />
     <ShrunkNav />
       <motion.div
         initial={{ width: "20%" }}

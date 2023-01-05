@@ -7,15 +7,19 @@ import BalayageModal from "../modals/BalayageModal";
 import ServicesNav from "../ServicesNav";
 import ShrunkNav from "../ShrunkNav";
 
+
 const Balayage = () => {
   const [scrollPosition, setScrollPosition] = useState(0);
   const [showModal, setShowModal] = useState(false);
   const [modalContent, setModalContent] = useState();
 
+
   const openModal = (prev) => {
     setShowModal((prev) => !prev);
     setModalContent(<BalayageModal />);
   };
+
+
 
   useEffect(() => {
     const updatePosition = () => {
@@ -31,7 +35,8 @@ const Balayage = () => {
 
   return (
     <>
-    <ShrunkNav />
+
+      <ShrunkNav />
       <motion.div
         initial={{ width: "20%" }}
         animate={{ width: "100%" }}
@@ -61,7 +66,7 @@ const Balayage = () => {
 
         <div>
           <div className="col-span-3 w-full text-xl bg-[#B1740F] p-8 drop-shadow-2xl">
-            <h1 className="text-white">Balayage</h1>
+            <h1 className="page-title text-white">Balayage</h1>
           </div>
           <div className="bg-white">
             <h2 className="bg-[#FDE8E9] px-8 py-3"></h2>
@@ -71,7 +76,10 @@ const Balayage = () => {
       <ServicesNav />
       <div className="main-content grid grid-cols-3 gap-4 m-[2rem] ">
         <div>
-          <img src="/images/cut-colour.jpg" className="services-img ring ring-[#B1740F]" />
+          <img
+            src="/images/cut-colour.jpg"
+            className="services-img ring ring-[#B1740F]"
+          />
         </div>
         <div className="flex flex-col items-center justify-around col-span-2 bg-[#635774] text-white p-5 ring ring-[#B1740F]">
           <h2 className="font-bold text-[#FDE8E9]">Balayage</h2>

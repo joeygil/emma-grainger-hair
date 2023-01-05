@@ -6,6 +6,7 @@ import KRespectModal from "../modals/KRespectModal";
 import { Link } from "react-router-dom";
 import ServicesNav from "../ServicesNav";
 import ShrunkNav from "../ShrunkNav";
+import ScrollToTop from "../ScrollToTop";
 
 const KRespect = () => {
   const [scrollPosition, setScrollPosition] = useState(0);
@@ -34,6 +35,7 @@ const KRespect = () => {
 
   return (
     <>
+    <ScrollToTop />
     <ShrunkNav />
       <motion.div
         initial={{ width: "40%" }}
