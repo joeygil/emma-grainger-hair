@@ -227,28 +227,29 @@ a.active {
   .modal-content {
     margin: 0;
     width: 90%;
-    height: 90%;
+    height: 98%;
   }
 
   .modal-content-box {
     width: 100%;
     padding: 0px;
     margin-top: 10px;
+    scale: 0.8;
   }
 
   .modal-title {
     display: none;
   }
 
-  .balayage-modal-content {
-    scale: 0.93;
+  .balayage-content-box {
+    scale: 0.7;
   }
 
   .modal-close {
     width: 50%;
     height: 50px;
     right: 25%;
-    top: 0.5%;
+    top: 0;
   }
 
   .socials {

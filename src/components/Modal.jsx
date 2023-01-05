@@ -24,7 +24,7 @@ const Modal = ({ showModal, setShowModal, modalContent }) => {
             onClick={closeModal}
           >
             <motion.div
-              className="modal-content m-80 bg-[#635774] text-white p-3 w-[80%] h-[90%] z-50 min-w-[400px] rounded-[100px] flex flex-col justify-center items-center drop-shadow-2xl ring ring-[#B1740F]"
+              className="modal-content m-80 bg-[#635774] text-white p-3 w-[80%] h-[95%] z-50 min-w-[400px] rounded-[100px] flex flex-col justify-center items-center drop-shadow-2xl ring ring-[#B1740F]"
               initial={{ opacity: 0, y: "-100vh", rotate: 30 }}
               animate={{ opacity: 1, y: 0, rotate: 0 }}
               transition={{ duration: 0.3 }}

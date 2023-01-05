@@ -3,7 +3,7 @@ import React from "react";
 const BalayageModal = () => {
   return (
     <>
-      <ul className="modal-content-box balayage-modal-content flex flex-col justify-around w-7/12 items-center text-xl bg-white text-[#635774] rounded-xl drop-shadow-2xl p-3 ">
+      <ul className="modal-content-box balayage-content-box flex flex-col justify-around w-7/12 items-center text-xl bg-white text-[#635774] rounded-xl drop-shadow-2xl p-3 ">
         <a
           href="https://www.fresha.com/book-now/divine-hair-t5czol7v/services?lid=149346&eid=511383&oiid=p%3A265205&pId=139034"
           className="w-full hover:text-[#B1740F]  duration-300"
