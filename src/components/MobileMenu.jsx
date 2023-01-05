@@ -33,7 +33,7 @@ const MobileMenu = ({ showModal, setShowModal, modalContent }) => {
             onClick={closeModal}
           >
             <motion.div
-              className="modal-content bg-[#635774] text-white p-3 w-[95%] h-[90%] z-50 min-w-[400px] flex flex-col justify-center items-center drop-shadow-2xl rounded-l-xl ring ring-[#B1740F]"
+              className="modal-content bg-[#635774] text-white p-3 w-[95%] h-[95%] z-50 min-w-[400px] flex flex-col justify-center items-center drop-shadow-2xl rounded-l-xl ring ring-[#B1740F]"
               initial={{ opacity: 0, x: "100vh" }}
               animate={{ opacity: 1, x: 0, rotate: 0 }}
               transition={{ duration: 0.3 }}
@@ -42,13 +42,13 @@ const MobileMenu = ({ showModal, setShowModal, modalContent }) => {
               <div className="menu-container flex flex-col justify-around items-center w-full h-full">
                 <img
                   src="/images/eg-logo-sml.png"
-                  className="h-[200px] rounded-xl"
+                  className="h-[150px] mt-3 rounded-xl"
                 />
                 <a
                   href="https://www.fresha.com/book-now/divine-hair-t5czol7v/services?lid=149346&eid=511383&pId=139034"
                   target="_blank"
                 >
-                  <motion.button className="scale-150 hidden nav-book-mobile bg-[#B1740F] hover:bg-[#FDE8E9] hover:text-[#635774] text-[#FDE8E9] text-xl shadow-lg py-4 px-4 rounded z-50">
+                  <motion.button className="hidden nav-book-mobile bg-[#B1740F] hover:bg-[#FDE8E9] hover:text-[#635774] text-[#FDE8E9] text-xl shadow-lg py-4 px-4 rounded z-50">
                     Book Online
                   </motion.button>
                 </a>
@@ -75,7 +75,7 @@ const MobileMenu = ({ showModal, setShowModal, modalContent }) => {
                   </div>
                 </div>
               </div>
-              <div className="flex justify-around w-full mb-4">
+              <div className="flex justify-around w-full mb-3">
                 <motion.a
                   href="https://www.facebook.com/emmaatdivine"
                   target="_blank"
@@ -83,7 +83,7 @@ const MobileMenu = ({ showModal, setShowModal, modalContent }) => {
                   whileTap={{ scale: 0.9 }}
                   className="flex justify-center items-center flex-col cursor-pointer"
                 >
-                  <UilFacebook size="50" color="white" />
+                  <UilFacebook size="40" color="white" />
                   <span className="footer-span text-white">Facebook</span>
                 </motion.a>
 
@@ -94,7 +94,7 @@ const MobileMenu = ({ showModal, setShowModal, modalContent }) => {
                   whileTap={{ scale: 0.9 }}
                   className="flex justify-center items-center flex-col"
                 >
-                  <UilInstagram size="50" color="white" />
+                  <UilInstagram size="40" color="white" />
                   <span className="footer-span text-white">Instagram</span>
                 </motion.a>
 
@@ -103,7 +103,7 @@ const MobileMenu = ({ showModal, setShowModal, modalContent }) => {
                   whileTap={{ scale: 0.9 }}
                   className="flex justify-center items-center flex-col"
                 >
-                  <UilPhone size="50" color="white" />
+                  <UilPhone size="40" color="white" />
                   <span className="footer-span text-white">07976 889 289</span>
                 </motion.a>
 
@@ -112,7 +112,7 @@ const MobileMenu = ({ showModal, setShowModal, modalContent }) => {
                   whileTap={{ scale: 0.9 }}
                   className="flex justify-center items-center flex-col"
                 >
-                  <UilEnvelope size="50" color="white" />
+                  <UilEnvelope size="40" color="white" />
                   <span className="footer-span text-white">
                     emmagraingergilchrist@gmail.com
                   </span>
