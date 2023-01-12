@@ -5,10 +5,8 @@ import "../mediaqueries.css";
 import { Link } from "react-router-dom";
 import Nav from "./Nav";
 import ScrollToTop from "./ScrollToTop";
-import { useRef } from "react";
 
 const Home = () => {
-  const scrollRef = useRef(null);
   const [scrollPosition, setScrollPosition] = useState(0);
   let { scrollYProgress } = useScroll();
   let y = useTransform(scrollYProgress, [0, 1], ["0%", "75%"]);
@@ -49,15 +47,19 @@ const Home = () => {
             ></div>
           )}
         </div>
-        <motion.div className="home-tagline col-span-3 w-full bg-[#B1740F] py-8 px-2 drop-shadow-2xl ">
+        <div className="home-tagline col-span-3 w-full bg-[#B1740F] py-8 px-2 drop-shadow-2xl ">
           <h1 className="tagline text-white text-3xl tracking-wide">
             Based at Divine Hairdressing,
             <br />
             Knaresborough.
           </h1>
-        </motion.div>
+        </div>
         <div className="hidden mobile-banner flex justify-center">
-          <img src="/images/wedding-serv.jpg" className="object-cover" />
+          <img
+            src="/images/wedding-serv.webp"
+            className="object-cover w-full h-full"
+            loading="lazy"
+          />
         </div>
         <motion.div
           initial={{ opacity: 0 }}
@@ -87,7 +89,11 @@ const Home = () => {
               className="col-span-3 row-span-2 w-full text-xl bg-[#B1740F] z-0"
             >
               <div className="home-banner flex justify-center">
-                <img src="/images/salon-1-2.jpg" className="object-cover" />
+                <img
+                  src="/images/salon-main.jpg"
+                  className="object-cover w-screen h-full"
+                  loading="lazy"
+                />
               </div>
             </motion.div>
 
@@ -108,7 +114,12 @@ const Home = () => {
                 <h2 className="tracking-wider my-4 text-2xl bg-[#635774] text-white w-full p-3 text-center">
                   Contemporary Cut & Colour
                 </h2>
-                <img src="/images/cut-colour.jpg" />
+                <img
+                  src="/images/cut-colour.jpg"
+                  alt="hair cut"
+                  loading="lazy"
+                  className="w-full h-full"
+                />
                 <Link
                   to="/services/cutandstyle"
                   className="flex justify-center w-full"
@@ -141,7 +152,12 @@ const Home = () => {
                 <h2 className="tracking-wider my-4 text-2xl bg-[#635774] text-white w-full p-3 text-center">
                   Extensions
                 </h2>
-                <img src="/images/extensions-home.jpg" />
+                <img
+                  src="/images/extensions-home.jpg"
+                  loading="lazy"
+                  alt="person with extensions"
+                  className="w-full h-full"
+                />
                 <Link
                   to="/services/extensions"
                   className="flex justify-center w-full"
@@ -174,7 +190,12 @@ const Home = () => {
                 <h2 className="tracking-wider my-4 text-2xl bg-[#635774] text-white w-full p-3 text-center">
                   Weddings
                 </h2>
-                <img src="/images/weddings-home.jpg" />
+                <img
+                  src="/images/weddings-home.jpg"
+                  alt="wedding hair"
+                  loading="lazy"
+                  className="w-full h-full"
+                />
                 <Link
                   to="/services/weddings"
                   className="flex justify-center w-full"
@@ -189,11 +210,13 @@ const Home = () => {
                 </Link>
               </div>
             </motion.div>
-            <motion.div className="col-span-3 w-full bg-[#635774] p-8 h-full ring ring-[#B1740F]">
+            <div className="col-span-3 w-full bg-[#635774] p-8 h-full ring ring-[#B1740F]">
               <div className="home-about-me flex ring ring-[#B1740F] rounded-xl">
                 <img
                   src="/images/emma-headshot.jpg"
                   className="emma-image w-[500px] h-[700px] col-span-2 rounded-l-xl"
+                  loading="lazy"
+                  alt="emma headshot"
                 />
                 <div className="flex flex-col justify-around">
                   <h2 className="text-4xl text-white px-8 py-2">
@@ -239,7 +262,7 @@ const Home = () => {
                   </span>
                 </div>
               </div>
-            </motion.div>
+            </div>
           </div>
         </motion.div>
       </motion.div>
