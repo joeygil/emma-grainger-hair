@@ -58,7 +58,7 @@ const Home = () => {
           <img
             src="/images/wedding-serv.webp"
             className="object-cover w-full h-full"
-            loading="lazy"
+            alt="emma doing wedding hair"
           />
         </div>
         <motion.div
@@ -117,7 +117,6 @@ const Home = () => {
                 <img
                   src="/images/cut-colour.webp"
                   alt="hair cut"
-                  loading="lazy"
                   className="w-full h-full"
                 />
                 <Link
@@ -154,7 +153,6 @@ const Home = () => {
                 </h2>
                 <img
                   src="/images/extensions-home.webp"
-                  loading="lazy"
                   alt="person with extensions"
                   className="w-full h-full"
                 />
@@ -193,7 +191,6 @@ const Home = () => {
                 <img
                   src="/images/weddings-home.webp"
                   alt="wedding hair"
-                  loading="lazy"
                   className="w-full h-full"
                 />
                 <Link
@@ -215,7 +212,6 @@ const Home = () => {
                 <img
                   src="/images/emma-headshot.webp"
                   className="emma-image w-[500px] h-[700px] col-span-2 rounded-l-xl"
-                  loading="lazy"
                   alt="emma headshot"
                 />
                 <div className="flex flex-col justify-around">
