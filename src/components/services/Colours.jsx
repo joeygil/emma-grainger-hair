@@ -32,7 +32,7 @@ const Colours = () => {
 
   return (
     <>
-  <ScrollToTop />
+      <ScrollToTop />
       <ShrunkNav />
       <motion.div
         initial={{ width: "20%" }}
@@ -75,6 +75,11 @@ const Colours = () => {
       <div className="main-content grid grid-cols-3 gap-4 m-[2rem] ">
         <div>
           <img
+            src="/images/colour-copper.jpg"
+            className="services-img ring ring-[#B1740F]"
+          />
+          <br />
+          <img
             src="/images/cut-colour.jpg"
             className="services-img ring ring-[#B1740F]"
           />
@@ -102,7 +107,7 @@ const Colours = () => {
               add a new dimension to their hair or make a bold statement, I
               enjoy helping them achieve their desired look. I take pride in my
               attention to detail and strive to ensure that every hair colour
-              service leaves my clients feeling confident an beautiful
+              service leaves my clients feeling confident and beautiful
             </p>
             <br />
             I use milk_shake colours in my current salon. milk_shake® is a salon

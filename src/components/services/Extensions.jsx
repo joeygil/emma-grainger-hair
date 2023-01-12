@@ -112,7 +112,7 @@ const Extensions = () => {
             </p>
             <br />
             As extensions are a bespoke service, a full consultation is required
-            beforehand to assess your needs, click below to book online and see
+            beforehand to assess your needs, click above to book online and see
             what I can do for you.
           </p>
         </div>

@@ -73,7 +73,7 @@ const Weddings = () => {
       <div className="main-content grid grid-cols-3 gap-4 m-[2rem] ">
         <div>
           <img
-            src="/images/cut-colour.jpg"
+            src="/images/wedding-serv.jpg"
             className="services-img ring ring-[#B1740F]"
           />
         </div>
@@ -81,15 +81,15 @@ const Weddings = () => {
           <h2 className="font-bold text-[#FDE8E9]">Weddings</h2>
           <p className="services-p text-justify text-xl px-12">
             Need your and/or your bridal party's hair doing for your big day?
-            Weddings are a special and exciting time for clients. On their
-            wedding day, a bride and her bridal party want to look and feel
-            their best, and it is my job to help them achieve that. Wedding hair
-            can be as simple or as elaborate as the client desires, and can
-            range from classic updos to loose and romantic styles. It is
-            important to work closely with the client to understand their vision
-            and to create a look that will complement their dress and overall
-            wedding aesthetic. I believe that wedding hair is an important part
-            of a bride's big day and can help her feel confident and beautiful.
+            Weddings are a special and exciting time for you. On your wedding
+            day, a bride and your bridal party want to look and feel their best,
+            and it is my job to help you achieve that. Wedding hair can be as
+            simple or as elaborate as you desire, and can range from classic
+            updos to loose and romantic styles. It is important to work closely
+            with you to understand your vision and to create a look that will
+            complement your dress and overall wedding aesthetic. I believe that
+            wedding hair is an important part of a bride's big day and can help
+            her feel confident and beautiful.
           </p>
           <p className="services-p text-justify text-xl px-12">
             Get in touch on Facebook or Instagram below to book in a

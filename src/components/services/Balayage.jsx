@@ -7,19 +7,15 @@ import BalayageModal from "../modals/BalayageModal";
 import ServicesNav from "../ServicesNav";
 import ShrunkNav from "../ShrunkNav";
 
-
 const Balayage = () => {
   const [scrollPosition, setScrollPosition] = useState(0);
   const [showModal, setShowModal] = useState(false);
   const [modalContent, setModalContent] = useState();
 
-
   const openModal = (prev) => {
     setShowModal((prev) => !prev);
     setModalContent(<BalayageModal />);
   };
-
-
 
   useEffect(() => {
     const updatePosition = () => {
@@ -35,7 +31,6 @@ const Balayage = () => {
 
   return (
     <>
-
       <ShrunkNav />
       <motion.div
         initial={{ width: "20%" }}
@@ -77,7 +72,7 @@ const Balayage = () => {
       <div className="main-content grid grid-cols-3 gap-4 m-[2rem] ">
         <div>
           <img
-            src="/images/cut-colour.jpg"
+            src="/images/balayage-serv.jpeg"
             className="services-img ring ring-[#B1740F]"
           />
         </div>
@@ -92,16 +87,19 @@ const Balayage = () => {
             Book Online
           </motion.button>
           <p className="services-p text-justify text-xl px-12">
-            Balayage is a popular and versatile hair coloring technique that can
-            create beautiful, natural-looking results. The word "balayage" comes
-            from the French verb "to sweep," and this technique involves using a
-            brush to apply hair color in a sweeping motion, creating a
+            Balayage is a popular and versatile hair colouring technique that
+            can create beautiful, natural-looking results. The word "balayage"
+            comes from the French verb "to sweep," and this technique involves
+            using a brush to apply hair colour in a sweeping motion, creating a
             graduated, sun-kissed effect. This technique is low maintenance and
-            allows for a more natural and subtle transition of color, as opposed
-            to the traditional foil highlight method. Balayage can be customized
-            to suit the individual client and can be applied to all hair types
-            and lengths. I believe that balayage is a great option for clients
-            who want a soft and natural-looking color update.
+            allows for a more natural and subtle transition of colour, as
+            opposed to the traditional foil highlight method. My go-to technique
+            for balayage is combining both foils and balayage to create
+            'foilayage'. The method works better for a more modern balayage
+            look. Balayage can be customized to suit the individual client and
+            can be applied to all hair types and lengths. I believe that
+            balayage is a great option for clients who want a soft and
+            natural-looking colour update.
           </p>
         </div>
       </div>

@@ -32,8 +32,8 @@ const Highlights = () => {
 
   return (
     <>
-    <ScrollToTop />
-    <ShrunkNav />
+      <ScrollToTop />
+      <ShrunkNav />
       <motion.div
         initial={{ width: "20%" }}
         animate={{ width: "100%" }}
@@ -73,7 +73,10 @@ const Highlights = () => {
       <ServicesNav />
       <div className="main-content grid grid-cols-3 gap-4 m-[2rem] ">
         <div>
-          <img src="/images/highlights.jpg" className="services-img ring ring-[#B1740F]" />
+          <img
+            src="/images/highlights-serv.jpeg"
+            className="services-img ring ring-[#B1740F]"
+          />
         </div>
         <div className="flex flex-col items-center justify-around col-span-2 bg-[#635774] text-white p-5 ring ring-[#B1740F]">
           <h2 className="font-bold text-[#FDE8E9]">Highlights</h2>

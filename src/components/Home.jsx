@@ -51,11 +51,13 @@ const Home = () => {
         </div>
         <motion.div className="home-tagline col-span-3 w-full bg-[#B1740F] py-8 px-2 drop-shadow-2xl ">
           <h1 className="tagline text-white text-3xl tracking-wide">
-            Knaresborough based hairdresser
+            Based at Divine Hairdressing,
+            <br />
+            Knaresborough.
           </h1>
         </motion.div>
         <div className="hidden mobile-banner flex justify-center">
-          <img src="/images/mobile-banner.jpg" className="object-cover" />
+          <img src="/images/wedding-serv.jpg" className="object-cover" />
         </div>
         <motion.div
           initial={{ opacity: 0 }}

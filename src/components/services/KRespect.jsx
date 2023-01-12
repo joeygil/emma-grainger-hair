@@ -104,7 +104,7 @@ const KRespect = () => {
             <br />
             <br />
             As K Respect a bespoke service, a full consultation is required
-            beforehand to assess your needs, click below to book online and see
+            beforehand to assess your needs, click above to book online and see
             what I can do for you.
           </p>
           <p className="text-justify text-xl"></p>
