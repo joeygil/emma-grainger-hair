@@ -17,6 +17,7 @@ body {
   background-attachment: fixed;
   max-width: 1900px;
   margin: 0 auto;
+  font-display: swap;
 }
 
 h1 {
