@@ -97,7 +97,7 @@ const Weddings = () => {
           </p>
           <div className="socials flex justify-between w-[300px] items-center">
             <motion.a
-              href="https:/www.instagram.com/emma_at_divine"
+              href="https:/www.instagram.com/emmagraingerhair"
               target="_blank"
               whileHover={{ scale: 1.1 }}
               whileTap={{ scale: 0.9 }}
@@ -108,7 +108,7 @@ const Weddings = () => {
             </motion.a>
 
             <motion.a
-              href="https://www.facebook.com/emmaatdivine"
+              href="https://www.facebook.com/emmagraingerhair"
               target="_blank"
               whileHover={{ scale: 1.1 }}
               whileTap={{ scale: 0.9 }}

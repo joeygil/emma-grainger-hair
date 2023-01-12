@@ -78,7 +78,7 @@ const MobileMenu = ({ showModal, setShowModal, modalContent }) => {
               </div>
               <div className="flex justify-around w-full mb-3">
                 <motion.a
-                  href="https://www.facebook.com/emmaatdivine"
+                  href="https://www.facebook.com/emmagraingerhair"
                   target="_blank"
                   whileHover={{ scale: 1.1 }}
                   whileTap={{ scale: 0.9 }}
@@ -89,7 +89,7 @@ const MobileMenu = ({ showModal, setShowModal, modalContent }) => {
                 </motion.a>
 
                 <motion.a
-                  href="https:/www.instagram.com/emma_at_divine"
+                  href="https:/www.instagram.com/emmagraingerhair"
                   target="_blank"
                   whileHover={{ scale: 1.1 }}
                   whileTap={{ scale: 0.9 }}
@@ -126,7 +126,7 @@ const MobileMenu = ({ showModal, setShowModal, modalContent }) => {
                 onClick={handleClose}
                 className="bg-[] hover:bg-[#FDE8E9] hover:text-[#635774] text-white text-xl py-3 px-4 m-4 rounded-lg justify-self-center absolute top-0 right-0"
               >
-                <UilTimesCircle size="40"/>
+                <UilTimesCircle size="40" />
               </motion.button>
             </motion.div>
           </div>

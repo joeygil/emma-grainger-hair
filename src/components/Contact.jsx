@@ -143,7 +143,7 @@ const Contact = () => {
               </div>
               <div className="flex items-center justify-around m-8">
                 <motion.a
-                  href="https:/www.instagram.com/emma_at_divine"
+                  href="https:/www.instagram.com/emmagraingerhair"
                   target="_blank"
                   whileHover={{ scale: 1.1 }}
                   whileTap={{ scale: 0.9 }}
@@ -151,7 +151,7 @@ const Contact = () => {
                   <UilInstagram size="50" color="#635774" />
                 </motion.a>
                 <motion.a
-                  href="https://www.facebook.com/emmaatdivine"
+                  href="https://www.facebook.com/emmagraingerhair"
                   target="_blank"
                   whileHover={{ scale: 1.1 }}
                   whileTap={{ scale: 0.9 }}
