@@ -74,7 +74,7 @@ const CutAndStyle = () => {
       <div className="main-content grid grid-cols-3 gap-4 m-[2rem] ">
         <div>
           <img
-            src="/images/cut-colour.jpg"
+            src="/images/cut-colour.webp"
             className="services-img ring ring-[#B1740F]"
           />
         </div>

@@ -5,7 +5,7 @@ import { UilBars } from "@iconscout/react-unicons";
 import MobileMenu from "./MobileMenu";
 
 const ShrunkNav = () => {
-  const [logo, setLogo] = useState("/images/eg-logo-sml.png");
+  const [logo, setLogo] = useState("/images/eg-logo-sml.webp");
   const [showModal, setShowModal] = useState(false);
   const [modalContent, setModalContent] = useState();
 

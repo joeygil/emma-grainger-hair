@@ -39,27 +39,7 @@ const Colours = () => {
         animate={{ width: "100%" }}
         exit={{ x: window.screenX }}
       >
-        <div className="flex justify-end relative z-30">
-          {/* {scrollPosition < 5 ? (
-            <div
-              className="hero w-[60%] h-[40vh] bg-[url('/images/services-banner-dark.jpg')] bg-cover -top-80 absolute duration-1000 shadow-xl rounded-tl-[10rem] rounded-bl-[10rem] flex items-end justify-end ring ring-[#B1740F]"
-              id="hero"
-            >
-              <h1 className="mb-8 mr-8 text-white text-[8rem] font-bold">
-                Colours
-              </h1>
-            </div>
-          ) : (
-            <div
-              className="w-[0] h-[0] opacity-0"
-              id="hero"
-            >
-              <h1 className="mb-8 mr-8 text-white text-[8rem] font-bold opacity-0">
-                Colours
-              </h1>
-            </div>
-          )} */}
-        </div>
+        <div className="flex justify-end relative z-30"></div>
 
         <div>
           <div className="col-span-3 w-full text-xl bg-[#B1740F] p-8 drop-shadow-2xl">
@@ -75,12 +55,12 @@ const Colours = () => {
       <div className="main-content grid grid-cols-3 gap-4 m-[2rem] ">
         <div>
           <img
-            src="/images/colour-copper.jpg"
+            src="/images/colour-copper.webp"
             className="services-img ring ring-[#B1740F]"
           />
           <br />
           <img
-            src="/images/cut-colour.jpg"
+            src="/images/cut-colour.webp"
             className="services-img ring ring-[#B1740F]"
           />
         </div>

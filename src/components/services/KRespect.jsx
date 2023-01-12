@@ -35,31 +35,14 @@ const KRespect = () => {
 
   return (
     <>
-    <ScrollToTop />
-    <ShrunkNav />
+      <ScrollToTop />
+      <ShrunkNav />
       <motion.div
         initial={{ width: "40%" }}
         animate={{ width: "100%" }}
         exit={{ x: window.screenX }}
       >
-        <div className="flex justify-end relative z-30">
-          {/* {scrollPosition < 5 ? (
-            <div
-              className="hero w-[60%] h-[40vh] bg-[url('/images/services-banner-dark.jpg')] bg-cover -top-80 absolute duration-1000 shadow-xl rounded-tl-[10rem] rounded-bl-[10rem] flex items-end justify-end ring ring-[#B1740F]"
-              id="hero"
-            >
-              <h1 className="mb-8 mr-8 text-white text-[6rem] font-bold">
-                K Respect
-              </h1>
-            </div>
-          ) : (
-            <div className="w-[0] h-[0] opacity-0" id="hero">
-              <h1 className="mb-8 mr-8 text-white text-[6rem] font-bold opacity-0">
-                K Respect
-              </h1>
-            </div>
-          )} */}
-        </div>
+        <div className="flex justify-end relative z-30"></div>
 
         <div>
           <div className="col-span-3 w-full text-xl bg-[#B1740F] p-8 drop-shadow-2xl">
@@ -78,12 +61,15 @@ const KRespect = () => {
         className="flex w-screen justify-center items-center z-0 relative"
         style={{ y }}
       >
-        <img src="/images/krespect-banner.png" className="w-screen " />
+        <img src="/images/krespect-banner.webp" className="w-screen " />
       </motion.div>
 
       <div className="main-content grid grid-cols-3 gap-4 m-[2rem] z-10 relative">
         <div>
-          <img src="/images/K-Respect.jpg" className="services-img ring ring-[#B1740F]" />
+          <img
+            src="/images/K-Respect.webp"
+            className="services-img ring ring-[#B1740F]"
+          />
         </div>
         <div className="flex flex-col items-center justify-around col-span-2 bg-[#635774] text-white p-5 ring ring-[#B1740F]">
           <h2 className="font-bold text-[#FDE8E9]">K Respect</h2>

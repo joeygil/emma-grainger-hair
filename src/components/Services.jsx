@@ -40,7 +40,7 @@ const Services = () => {
         <div className="services-hero flex justify-end relative z-30">
           {scrollPosition < 10 ? (
             <div
-              className="w-[60%] h-[40vh] bg-[url('/images/services-banner-dark.jpg')] bg-cover -top-80 absolute duration-1000 delay-500 drop-shadow-2xl rounded-tl-[10rem] rounded-bl-[10rem] flex items-end justify-end ring ring-[#B1740F]"
+              className="w-[60%] h-[40vh] bg-[url('/images/services-banner-dark.webp')] bg-cover -top-80 absolute duration-1000 delay-500 drop-shadow-2xl rounded-tl-[10rem] rounded-bl-[10rem] flex items-end justify-end ring ring-[#B1740F]"
               id="hero"
             >
               <h1 className="mb-8 mr-8 text-white text-[8rem] font-bold">
@@ -49,7 +49,7 @@ const Services = () => {
             </div>
           ) : (
             <div
-              className="w-[0] h-[0] bg-[url('/images/services-banner-dark.jpg')] bg-cover -top-80 absolute duration-1000 drop-shadow-2xl rounded-tl-[10rem] rounded-bl-[10rem] flex items-end justify-end ring ring-[#B1740F] opacity-0"
+              className="w-[0] h-[0] bg-[url('/images/services-banner-dark.webp')] bg-cover -top-80 absolute duration-1000 drop-shadow-2xl rounded-tl-[10rem] rounded-bl-[10rem] flex items-end justify-end ring ring-[#B1740F] opacity-0"
               id="hero"
             >
               <h1 className="mb-8 mr-8 text-white text-[8rem] font-bold opacity-0">
@@ -72,7 +72,7 @@ const Services = () => {
           <div className="col-span-2 text-center"></div>
 
           <div className="flex justify-center py-3">
-            <div className="services-box flex flex-col justify-center items-center p-5 bg-[url('/images/cut.jpg')] bg-cover bg-center h-[400px] w-[600px] text-white text-[6rem]">
+            <div className="services-box flex flex-col justify-center items-center p-5 bg-[url('/images/cut.webp')] bg-cover bg-center h-[400px] w-[600px] text-white text-[6rem]">
               <p className="services-title drop-shadow-3xl text-center">
                 Cut / Style
               </p>
@@ -89,7 +89,7 @@ const Services = () => {
           </div>
 
           <div className="flex justify-center py-3">
-            <div className="services-box flex flex-col justify-center items-center p-5 bg-[url('/images/highlights.jpg')] bg-cover bg-center h-[400px] w-[600px] text-white text-[6rem]">
+            <div className="services-box flex flex-col justify-center items-center p-5 bg-[url('/images/highlights.webp')] bg-cover bg-center h-[400px] w-[600px] text-white text-[6rem]">
               <p className="services-title drop-shadow-3xl text-center">
                 Highlights
               </p>
@@ -106,7 +106,7 @@ const Services = () => {
           </div>
 
           <div className="flex justify-center py-3">
-            <div className="services-box flex flex-col justify-center items-center p-5 bg-[url('/images/balayage.jpg')] bg-cover bg-center h-[400px] w-[600px] text-white text-[6rem]">
+            <div className="services-box flex flex-col justify-center items-center p-5 bg-[url('/images/balayage.webp')] bg-cover bg-center h-[400px] w-[600px] text-white text-[6rem]">
               <p className="services-title drop-shadow-3xl text-center">
                 Balayage
               </p>
@@ -123,7 +123,7 @@ const Services = () => {
           </div>
 
           <div className="flex justify-center py-3">
-            <div className="services-box flex flex-col justify-center items-center p-5 bg-[url('/images/blowdry.jpg')] bg-cover bg-center h-[400px] w-[600px] text-white text-[6rem]">
+            <div className="services-box flex flex-col justify-center items-center p-5 bg-[url('/images/blowdry.webp')] bg-cover bg-center h-[400px] w-[600px] text-white text-[6rem]">
               <p className="services-title drop-shadow-3xl text-center">
                 Colour
               </p>
@@ -140,7 +140,7 @@ const Services = () => {
           </div>
 
           <div className="flex justify-center py-3">
-            <div className="services-box flex flex-col justify-center items-center p-5 bg-[url('/images/weddings.jpg')] bg-cover bg-center h-[400px] w-[600px] text-white text-[6rem]">
+            <div className="services-box flex flex-col justify-center items-center p-5 bg-[url('/images/weddings.webp')] bg-cover bg-center h-[400px] w-[600px] text-white text-[6rem]">
               <p className="services-title drop-shadow-3xl text-center">
                 Weddings
               </p>
@@ -157,7 +157,7 @@ const Services = () => {
           </div>
 
           <div className="flex justify-center py-3">
-            <div className="services-box flex flex-col justify-center items-center p-5 bg-[url('/images/krespect.jpg')] bg-cover bg-center h-[400px] w-[600px] text-white text-[6rem]">
+            <div className="services-box flex flex-col justify-center items-center p-5 bg-[url('/images/krespect.webp')] bg-cover bg-center h-[400px] w-[600px] text-white text-[6rem]">
               <p className="services-title drop-shadow-3xl text-center">
                 K Respect
               </p>
@@ -175,7 +175,7 @@ const Services = () => {
           </div>
 
           <div className="flex justify-center py-3">
-            <div className="services-box flex flex-col justify-center items-center p-5 bg-[url('/images/kids.jpg')] bg-cover bg-center h-[400px] w-[600px] text-white text-[6rem]">
+            <div className="services-box flex flex-col justify-center items-center p-5 bg-[url('/images/kids.webp')] bg-cover bg-center h-[400px] w-[600px] text-white text-[6rem]">
               <p className="services-title drop-shadow-3xl text-center">Kids</p>
               <Link to="/services/kids">
                 <motion.button
@@ -190,7 +190,7 @@ const Services = () => {
           </div>
 
           <div className="flex justify-center py-3">
-            <div className="services-box flex flex-col justify-center items-center p-5 bg-[url('/images/extensions.jpg')] bg-cover bg-center h-[400px] w-[600px] text-white text-[6rem]">
+            <div className="services-box flex flex-col justify-center items-center p-5 bg-[url('/images/extensions.webp')] bg-cover bg-center h-[400px] w-[600px] text-white text-[6rem]">
               <p className="services-title drop-shadow-3xl text-center">
                 Extensions
               </p>

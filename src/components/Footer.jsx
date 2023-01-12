@@ -53,7 +53,7 @@ const Footer = () => {
           </motion.a>
 
           <motion.img
-            src="/images/eg-init-logo.png"
+            src="/images/eg-init-logo.webp"
             className="footer-logo h-[100px]"
             drag
             dragConstraints={{ top: 0, bottom: 0, left: 0, right: 0 }}

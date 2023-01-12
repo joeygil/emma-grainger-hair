@@ -36,7 +36,7 @@ const Contact = () => {
         <div className="flex justify-end relative z-50">
           {scrollPosition < 10 ? (
             <div
-              className="contact-image w-[60%] h-[40vh] bg-[url('/images/contact-banner-dark.jpg')] bg-cover -top-80 absolute duration-1000 shadow-xl rounded-tl-[10rem] rounded-bl-[10rem] flex items-end justify-end ring ring-[#B1740F]"
+              className="contact-image w-[60%] h-[40vh] bg-[url('/images/contact-banner-dark.webp')] bg-cover -top-80 absolute duration-1000 shadow-xl rounded-tl-[10rem] rounded-bl-[10rem] flex items-end justify-end ring ring-[#B1740F]"
               id="hero"
             >
               <h1 className="mb-8 mr-8 text-white text-[8rem] font-bold">
@@ -45,7 +45,7 @@ const Contact = () => {
             </div>
           ) : (
             <div
-              className="w-[0] h-[0] bg-[url('/images/contact-banner-dark.jpg')] bg-cover -top-80 absolute duration-1000 shadow-xl rounded-tl-[10rem] rounded-bl-[10rem] flex items-end justify-end ring ring-[#B1740F]"
+              className="w-[0] h-[0] bg-[url('/images/contact-banner-dark.webp')] bg-cover -top-80 absolute duration-1000 shadow-xl rounded-tl-[10rem] rounded-bl-[10rem] flex items-end justify-end ring ring-[#B1740F]"
               id="hero"
             >
               <h1 className="mb-8 mr-8 text-white text-[8rem] font-bold opacity-0 transition-['1s']">
@@ -66,7 +66,7 @@ const Contact = () => {
           className="flex w-screen justify-center items-center z-0 relative"
           style={{ y }}
         >
-          <img src="/images/salon-contact.jpg" className="w-screen " />
+          <img src="/images/salon-contact.webp" className="w-screen " />
         </motion.div>
 
         <div className="contact-grid grid grid-cols-2 my-12 mx-12 z-10">

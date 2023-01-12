@@ -32,7 +32,7 @@ const About = () => {
         <div className="flex justify-end relative z-50">
           {scrollPosition < 10 ? (
             <div
-              className="about-hero w-[60%] h-[40vh] bg-[url('/images/about-banner-dark.jpg')] bg-cover -top-80 absolute duration-1000 rounded-tl-[10rem] rounded-bl-[10rem] flex items-end justify-end ring ring-[#B1740F]"
+              className="about-hero w-[60%] h-[40vh] bg-[url('/images/about-banner-dark.webp')] bg-cover -top-80 absolute duration-1000 rounded-tl-[10rem] rounded-bl-[10rem] flex items-end justify-end ring ring-[#B1740F]"
               id="hero"
             >
               <h1 className="mb-8 mr-8 text-white text-[8rem] font-bold">
@@ -41,7 +41,7 @@ const About = () => {
             </div>
           ) : (
             <div
-              className="w-[0] h-[0] bg-[url('/images/about-banner-dark.jpg')] bg-cover -top-80 absolute duration-1000 rounded-tl-[10rem] rounded-bl-[10rem] flex items-end justify-end ring ring-[#B1740F]"
+              className="w-[0] h-[0] bg-[url('/images/about-banner-dark.webp')] bg-cover -top-80 absolute duration-1000 rounded-tl-[10rem] rounded-bl-[10rem] flex items-end justify-end ring ring-[#B1740F]"
               id="hero"
             >
               <h1 className="mb-8 mr-8 text-white text-[8rem] font-bold">
@@ -60,7 +60,7 @@ const About = () => {
         <motion.div className="col-span-3 my-8 w-full bg-[#635774] p-8 h-full ring ring-[#B1740F]">
           <div className="about-me flex ring ring-[#B1740F] rounded-xl">
             <img
-              src="/images/emma-headshot.jpg"
+              src="/images/emma-headshot.webp"
               className="emma-image w-[500px] h-[700px] col-span-2 rounded-l-xl"
             />
             <motion.div className="flex flex-col">

@@ -90,7 +90,7 @@ const Home = () => {
             >
               <div className="home-banner flex justify-center">
                 <img
-                  src="/images/salon-main.jpg"
+                  src="/images/salon-main.webp"
                   className="object-cover w-screen h-full"
                   loading="lazy"
                 />
@@ -115,7 +115,7 @@ const Home = () => {
                   Contemporary Cut & Colour
                 </h2>
                 <img
-                  src="/images/cut-colour.jpg"
+                  src="/images/cut-colour.webp"
                   alt="hair cut"
                   loading="lazy"
                   className="w-full h-full"
@@ -153,7 +153,7 @@ const Home = () => {
                   Extensions
                 </h2>
                 <img
-                  src="/images/extensions-home.jpg"
+                  src="/images/extensions-home.webp"
                   loading="lazy"
                   alt="person with extensions"
                   className="w-full h-full"
@@ -191,7 +191,7 @@ const Home = () => {
                   Weddings
                 </h2>
                 <img
-                  src="/images/weddings-home.jpg"
+                  src="/images/weddings-home.webp"
                   alt="wedding hair"
                   loading="lazy"
                   className="w-full h-full"
@@ -213,7 +213,7 @@ const Home = () => {
             <div className="col-span-3 w-full bg-[#635774] p-8 h-full ring ring-[#B1740F]">
               <div className="home-about-me flex ring ring-[#B1740F] rounded-xl">
                 <img
-                  src="/images/emma-headshot.jpg"
+                  src="/images/emma-headshot.webp"
                   className="emma-image w-[500px] h-[700px] col-span-2 rounded-l-xl"
                   loading="lazy"
                   alt="emma headshot"
