@@ -37,12 +37,14 @@ const Nav = () => {
               src="/images/eg-logo-sml.webp"
               className="nav-logo w-[60%] h-[60%] duration-1000"
               id="logo"
+              alt="emma's logo"
             />
           ) : (
             <img
               src="/images/eg-logo-sml.webp"
               id="logo"
               className=" nav-logo-zoom w-[7.5%] duration-1000"
+              alt="emma's logo"
             />
           )}
 

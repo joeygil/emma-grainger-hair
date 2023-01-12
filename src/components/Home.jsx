@@ -92,7 +92,7 @@ const Home = () => {
                 <img
                   src="/images/salon-main.webp"
                   className="object-cover w-screen h-full"
-                  loading="lazy"
+                  alt="the salon"
                 />
               </div>
             </motion.div>
