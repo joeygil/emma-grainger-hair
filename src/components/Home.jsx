@@ -47,7 +47,7 @@ const Home = () => {
             ></div>
           )}
         </div>
-        <div className="home-tagline col-span-3 w-full bg-[#B1740F] py-8 px-2 drop-shadow-2xl ">
+        <div className="home-tagline col-span-3 w-full h-[150px] bg-[#B1740F] py-8 px-2 drop-shadow-2xl ">
           <h1 className="tagline text-white text-3xl tracking-wide">
             Based at Divine Hairdressing,
             <br />

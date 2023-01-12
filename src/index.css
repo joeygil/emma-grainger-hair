@@ -73,8 +73,13 @@ a.active {
     display: none;
   }
 
+  .nav-logo {
+    height: 7.5%;
+  }
+
   .nav-logo-zoom {
     width: 20%;
+    height: 7.5%;
   }
 
   .home-banner {

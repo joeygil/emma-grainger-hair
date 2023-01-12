@@ -6,7 +6,6 @@ import MobileMenu from "./MobileMenu";
 
 const Nav = () => {
   const [scrollPosition, setScrollPosition] = useState(0);
-  // const [logo, setLogo] = useState();
   const [showModal, setShowModal] = useState(false);
   const [modalContent, setModalContent] = useState();
 
@@ -36,14 +35,14 @@ const Nav = () => {
           {scrollPosition <= 4 ? (
             <img
               src="/images/eg-logo-sml.webp"
-              className="nav-logo w-[60%] duration-1000"
+              className="nav-logo w-[60%] h-[60%] duration-1000"
               id="logo"
             />
           ) : (
             <img
               src="/images/eg-logo-sml.webp"
               id="logo"
-              className="nav-logo nav-logo-zoom w-[7.5%] duration-1000"
+              className=" nav-logo-zoom w-[7.5%] duration-1000"
             />
           )}
 
