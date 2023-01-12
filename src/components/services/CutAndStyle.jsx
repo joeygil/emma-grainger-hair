@@ -62,7 +62,7 @@ const CutAndStyle = () => {
         </div>
 
         <div>
-          <div className="col-span-3 w-full text-xl bg-[#B1740F] p-8 drop-shadow-2xl">
+          <div className="col-span-3 w-full h-[100px] text-xl bg-[#B1740F] p-8 drop-shadow-2xl">
             <h1 className="text-white">Cut & Style</h1>
           </div>
           <div className="bg-white">
