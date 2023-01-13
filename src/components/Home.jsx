@@ -112,7 +112,7 @@ const Home = () => {
             >
               <div className="flex flex-col items-center justify-center ">
                 <h2 className="tracking-wider my-4 text-2xl bg-[#635774] text-white w-full p-3 text-center">
-                  Contemporary Cut & Colour
+                  Cut & Colour
                 </h2>
                 <img
                   src="/images/cut-colour.webp"
