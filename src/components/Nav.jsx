@@ -30,7 +30,7 @@ const Nav = () => {
 
   return (
     <>
-      <nav className="nav-bar py-3 sticky w-full top-0 z-20 ring ring-[#B1740F]">
+      <nav className="nav-bar py-3 sticky w-screen top-0 z-20 ring ring-[#B1740F]">
         <div className="nav-bar-items flex justify-between items-start px-4">
           {scrollPosition <= 4 ? (
             <img

@@ -63,10 +63,13 @@ const Contact = () => {
         </motion.div>
 
         <motion.div
-          className="flex w-screen justify-center items-center z-0 relative"
+          className="flex w-full justify-center items-center z-0 relative"
           style={{ y }}
         >
-          <img src="/images/salon-contact.webp" className="w-screen " />
+          <img
+            src="/images/salon-contact.webp"
+            className="w-screen m-0 p-0 max-w-[1900px]"
+          />
         </motion.div>
 
         <div className="contact-grid grid grid-cols-2 my-12 mx-12 z-10">

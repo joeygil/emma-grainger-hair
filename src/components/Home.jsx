@@ -207,7 +207,7 @@ const Home = () => {
                 </Link>
               </div>
             </motion.div>
-            <div className="col-span-3 w-full bg-[#635774] p-8 h-full ring ring-[#B1740F]">
+            <div className="col-span-3 w-full bg-[#635774] p-8 h-full ring ring-[#B1740F] z-0">
               <div className="home-about-me flex ring ring-[#B1740F] rounded-xl">
                 <img
                   src="/images/emma-headshot.webp"

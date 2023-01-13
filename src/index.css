@@ -15,8 +15,8 @@ body {
   background-image: url("/public/images/background.webp");
   background-size: 22rem;
   background-attachment: fixed;
-  max-width: 1900px;
-  margin: 0 auto;
+  /* max-width: 1900px; */
+  /* margin: 0 auto; */
   font-display: swap;
 }
 
