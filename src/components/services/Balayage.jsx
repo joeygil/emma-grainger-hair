@@ -6,6 +6,7 @@ import { Link } from "react-router-dom";
 import BalayageModal from "../modals/BalayageModal";
 import ServicesNav from "../ServicesNav";
 import ShrunkNav from "../ShrunkNav";
+import ScrollToTop from "../ScrollToTop";
 
 const Balayage = () => {
   const [scrollPosition, setScrollPosition] = useState(0);
@@ -31,6 +32,7 @@ const Balayage = () => {
 
   return (
     <>
+    <ScrollToTop />
       <ShrunkNav />
       <motion.div
         initial={{ width: "20%" }}
